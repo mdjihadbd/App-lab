@@ -1,0 +1,134 @@
+
+/*================= 
+   Variables
+ ===============*/
+ :root{
+    --paimarycolor:#2500f9;
+    --paimaryTextColpr:#242f51;
+    --SecondaryTextColor:#616368;
+ }
+
+
+
+/*=============
+     Font CDNs
+ ================*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/*=================
+   Common Css
+ =================*/
+
+*,::after,  ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+
+}
+
+
+ul{
+     list-style: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+max-width: 1200px;
+width: 100%;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+.common-btn{
+
+border-radius: 29px;
+background-color: #2500f9;
+  font-size: 16px;
+line-height: 44px;
+color: #ffffff;
+font-weight: 700; 
+} 
+
+
+/*================
+     Header Css
+ =================*/
+
+ #header{
+    width: 100%;
+ }
+.innr-header{
+    height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}
+.innr-header .logo{
+width: 117px;
+display: flex;
+align-items: center;
+}
+.innr-header .logo img{
+    width: 100%;
+}
+.innr-header nav{}
+.innr-header nav ul{
+    display: flex;
+     align-items: center; 
+}
+.innr-header nav ul li{
+    margin-left: 20px;
+}
+.innr-header nav ul li a{
+    font-size: 16px;
+    line-height: 44px;
+    color: var(--paimaryTextColpr);
+    font-weight: 400;
+}
+.innr-header nav ul li a.trybtn{
+    display: flex;
+    height: 57px;
+    width:  170px;
+    color: white;
+     justify-content: center;
+     align-items: center; 
+} 
+
+
+
+
+/*================
+     Banner Css
+ =================*/
+
+ #banner{
+     background: url("./../images/banner-pst.png")}
+ .inner-banner{}
+ .inner-banner .sub-title{}
+ .inner-banner .sub-title img{}
+ .inner-banner .sub-title span{}
+ .inner-banner .title{}
+ .inner-banner .desc{}
+ .inner-banner .button-group{}
+ .inner-banner .button-group button{}
+ .inner-banner .button-group .watch-btn{}
+ .inner-banner .banner-img{}
+ .inner-banner .banner-img img{}
+
+
